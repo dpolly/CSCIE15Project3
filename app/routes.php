@@ -11,7 +11,39 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+	Route::get('/', function()
+		{
+			return View::make("master");
+		}
+	);
+
+	Route::get("/links", function()
+		{
+			return View::make("links");
+		}
+	);
+
+	Route::get("/text", function()
+		{
+			return View::make("text");
+		}
+	);
+
+	Route::post("/text", function()
+		{
+			return "Post Text";
+		}
+	);
+
+	Route::get("/users", function()
+		{
+			return View::make("users");
+		}
+	);
+
+	Route::post("/users", function()
+		{
+			return "Post Users";
+		}
+	);
+
