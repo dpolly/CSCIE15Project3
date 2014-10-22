@@ -17,12 +17,6 @@
 		}
 	);
 
-	Route::get("/links", function()
-		{
-			return View::make("links");
-		}
-	);
-
 	Route::get("/text", function()
 		{
 			return View::make("text");
