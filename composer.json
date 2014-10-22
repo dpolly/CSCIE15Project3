@@ -8,6 +8,7 @@
 		"paste/pre": "dev-master",
         "badcow/lorem-ipsum": "dev-master",
         "fzaninotto/faker": "1.4.0"
+        "apoutchika/loremipsum-bundle": "v1.0.3"
 
 	},
 	"autoload": {
