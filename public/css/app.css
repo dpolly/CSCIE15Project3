@@ -10,6 +10,11 @@ body
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
 }
 
+#footer
+{
+    text-align: center;
+}
+
 .panel
 {
     background: #3b679e; /* Old browsers */
