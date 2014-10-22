@@ -10,6 +10,7 @@
      </head>
 
     <body>
+
         <div id="header" class="row">
             <div class="small-3 columns">
                 <img src='{{ asset('img/logo.png') }}'alt="DMP logo">

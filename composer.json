@@ -6,8 +6,9 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"paste/pre": "dev-master",
-		"nubs/random-name-generator": "0.1.0",
-		"apoutchika/loremipsum-bundle": "1.0.3"
+        "badcow/lorem-ipsum": "dev-master",
+        "fzaninotto/faker": "1.4.0"
+
 	},
 	"autoload": {
 		"classmap": [

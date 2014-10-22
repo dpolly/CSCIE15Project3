@@ -6,4 +6,10 @@
 
   @section('content')
      <h1>Generating Loreum Ipsum Text Web Development Tools</h1>
+
+     <?php
+             $generator = new Badcow\LoremIpsum\Generator();
+             $paragraphs = $generator->getParagraphs(5);
+             echo implode('<p>', $paragraphs);
+     ?>
  @stop
