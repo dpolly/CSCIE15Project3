@@ -4,16 +4,16 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@yield('title', 'Dpolly.me')</title>
-        <link rel="stylesheet" href='{{ asset('css/foundation.css') }}' />
-        <link rel="stylesheet" href='{{ asset('css/app.css') }}' />
+        <title>@yield('title', 'Dpolly.me Project3')</title>
+        <link rel="stylesheet" href='{{ URL::asset('css/foundation.css') }}' />
+        <link rel="stylesheet" href='{{ URL::asset('css/app.css') }}' />
      </head>
 
     <body>
 
         <div id="header" class="row">
             <div class="small-3 columns">
-                <img src='{{ asset('img/logo.png') }}'alt="DMP logo">
+                <img src='{{ asset('img/logo.png') }}'alt="Logo">
             </div>
             <div class="panel">
                     <h1>Web Development Tools</h1>
@@ -21,12 +21,13 @@
         </div>
         <div id="content" class="row">
             <div class="small-4 columns">
-                <a href="text" alt="Text">Generate Random Text </a>
-                <a href="users" alt="Users">Generate Random Users</a>
+                <h3>I need some .....</h3>
+                <a href="text" alt="Text">Loreum Ipsum Text </a><br>
+                <a href="users" alt="Users">Random Users</a>
             </div>
             <div class="small-8 columns">
-                <div class="panel"
-                    @yield('content')
+                     @yield('content form')
+                     @yield('content')
                 </div>
             </div>
         </div>
