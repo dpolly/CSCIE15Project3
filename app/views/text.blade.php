@@ -1,15 +1,19 @@
 @extends('master')
 
  @section('title')
-     DPolly.me: WebDev Tools Generate Loreum Ipsum Text
+     Dpolly.me Project3 Text
  @stop
 
-  @section('content')
-     <h1>Generating Loreum Ipsum Text Web Development Tools</h1>
+ @section('content form')
 
-     <?php
-             $generator = new Badcow\LoremIpsum\Generator();
-             $paragraphs = $generator->getParagraphs(5);
-             echo implode('<p>', $paragraphs);
-     ?>
+    <div class="panel">
+         <h4>Number of Paragraphs</h4>
+         {{ Form::open(array('url' => '/text', 'method' => 'POST')) }}
+            {{ Form::input('text', 'paragraph') }}
+            {{ Form::submit('Generate'); }}
+          {{ Form::close() }}
+    </div>
+
  @stop
+
+
