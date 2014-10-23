@@ -37,3 +37,11 @@
 			return View::make("users");
 		}
 	);
+
+	Route::post("/users", function()
+		{
+			$users = Input::get('users');
+			return View::make("usergen")
+				->with ('num_users', $users);
+		}
+	);
