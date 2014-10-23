@@ -17,7 +17,7 @@
 		}
 	);
 
-	Route::get("/text", function()
+	Route::get('/text', function()
 		{
 			return View::make("text");
 		}
@@ -25,19 +25,15 @@
 
 	Route::post("/text", function()
 		{
-			return "Post Text";
+			$paragraph = Input::get('paragraph');
+			return View::make("txtgen")
+				->with ('num_paragraphs', $paragraph);
 		}
 	);
+
 
 	Route::get("/users", function()
 		{
 			return View::make("users");
 		}
 	);
-
-	Route::post("/users", function()
-		{
-			return "Post Users";
-		}
-	);
-
