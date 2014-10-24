@@ -31,7 +31,6 @@
             <div class="small-8 columns">
                      @yield('content form')
                      @yield('content')
-                </div>
             </div>
         </div>
         <div id="footer" class="row">
