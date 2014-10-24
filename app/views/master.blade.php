@@ -23,7 +23,7 @@
         <div id="content" class="row">
             <div class="small-4 columns">
                 <h3>I need some .....</h3>
-                <a href="tools">Cool Web Tools!</a>
+                <a href="tools">Cool Web Tools!</a><br>
                 <a href="text">Loreum Ipsum Text </a><br>
                 <a href="users">Random Users</a><br>
                 <a href="validators">Validators</a>
