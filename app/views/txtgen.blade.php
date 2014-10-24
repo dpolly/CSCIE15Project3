@@ -1,17 +1,17 @@
-@extends('master')
+ @extends('master')
 
-@section('title')
+ @section('title')
      Dpolly.me Project3 Text
  @stop
 
-@section('content')
-    @if($num_paragraphs >0)
-    <div class="panel">
-       <?php
+ @section('content')
+    <div class="panel" id="contents">
+        @if($num_paragraphs >0)
+            <?php
                $generator = new Badcow\LoremIpsum\Generator();
                $paragraphs = $generator->getParagraphs($num_paragraphs);
                echo implode('<p>', $paragraphs);
-         ?>
+             ?>
+        @endif
     </div>
-    @endif
-@stop
+ @stop
