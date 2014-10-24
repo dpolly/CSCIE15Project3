@@ -4,14 +4,12 @@
      Dpolly.me Project3 Users
  @stop
 
-  @section('content form')
-
+ @section('content form')
      <div class="panel">
-          <h4>How many users do you need?</h4>
-          {{ Form::open(array('url' => '/users', 'method' => 'POST')) }}
+        <h4>How many users do you need?</h4>
+             {{ Form::open(array('url' => '/users', 'method' => 'POST')) }}
              {{ Form::input('text', 'users') }}
              {{ Form::submit('Generate'); }}
-           {{ Form::close() }}
+             {{ Form::close() }}
      </div>
-
-  @stop
+ @stop
