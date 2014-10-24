@@ -17,7 +17,6 @@
 			return View::make("master");
 		}
 	);
-
 	/** Routes for Loreum Ipsum Text Generator */
 	Route::get('/text', function()
 		{
