@@ -13,17 +13,20 @@
 
         <div id="header" class="row">
             <div class="small-3 columns">
-                <img src='{{ asset('img/logo.png') }}'alt="Logo">
+                <img src='{{ asset('img/logo.png') }}' alt="Logo">
             </div>
             <div class="panel">
-                    <h1>Web Development Tools</h1>
+                <h1>Developer's Best Friend</h1>
+                <h4>The tools every developer needs for website development</h4>
             </div>
         </div>
         <div id="content" class="row">
             <div class="small-4 columns">
                 <h3>I need some .....</h3>
-                <a href="text" alt="Text">Loreum Ipsum Text </a><br>
-                <a href="users" alt="Users">Random Users</a>
+                <a href="tools">Cool Web Tools!</a>
+                <a href="text">Loreum Ipsum Text </a><br>
+                <a href="users">Random Users</a><br>
+                <a href="validators">Validators</a>
             </div>
             <div class="small-8 columns">
                      @yield('content form')
@@ -35,7 +38,6 @@
             <div class="panel" >
                 <h6>CSCIE-15 Dynamic Web Applications Project 3</h6>
             </div>
-        </div>
         </div>
     </body>
 </html>
