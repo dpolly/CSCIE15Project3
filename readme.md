@@ -10,7 +10,7 @@ Denise M Polly
 Web Application of common Web Development tools including user and text generator.   
 
 ## DEMO
-Jing Demo to be recorded later
+Jing Demo: http://www.screencast.com/t/9lhTm9gY6ja
 
 ## NOTES FOR TEACHING TEAM:
  *No password for Github
